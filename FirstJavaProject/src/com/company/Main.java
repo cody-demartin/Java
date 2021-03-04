@@ -10,6 +10,12 @@ public class Main {
         Date now = new Date(); // instance of Date class
         System.out.println(now);
 
+        String message = "Hello World" + "!!"; // strings reference types in Java
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.replace("!", "*")); // returns a new string
+        // strings are immutable in Java
+
+
 
         Point point1 = new Point(1, 1);
         Point point2 = point1;
