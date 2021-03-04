@@ -4,14 +4,22 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    public static int numberOfEmployees;
+
     public Employee(int baseSalary) {
         setBaseSalary(baseSalary);
         setHourlyRate(0);
+        numberOfEmployees++;
     }
 
     public Employee(int baseSalary, int hourlyRate) {
         setBaseSalary(baseSalary);
         setHourlyRate(hourlyRate);
+        numberOfEmployees++;
+    }
+
+    public static void printEmployees() {
+        System.out.println(numberOfEmployees);
     }
 
 
