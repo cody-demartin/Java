@@ -9,6 +9,17 @@ public class Main {
         System.out.println(x != y);
 
         int temp = 12;
+        if (temp > 30) {
+            System.out.println("It is a hot day");
+        }
+        else if ( temp > 20) {
+            System.out.println("Beaut");
+        }
+        else {
+            System.out.println("Brrr");
+        }
+
+
         boolean isWarm = temp > 20 && temp < 30;
         System.out.println(isWarm);
 
