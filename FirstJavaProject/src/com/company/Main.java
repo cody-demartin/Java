@@ -21,9 +21,21 @@ public class Main {
         System.out.println(Arrays.deepToString(numbers));
         // arrays have fixed length
 
+        int result = Math.round(1.1F);
+        System.out.println(result);
+
+        // implicit casting
+        short x = 1;
+        int y = x + 2;
+        // any values that can be stored in a short can be stored in an int so it gets casted to int
+
+
+
         // constants
         final float PI = 3.14F;
-        
+
+        // double result = (double)10 / (double)3; // division of two whole numbers is a whole number in java = 3
+        // int x = 1;
 
         Point point1 = new Point(1, 1);
         Point point2 = point1;
