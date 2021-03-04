@@ -16,8 +16,9 @@ public class Main {
         System.out.println(message.replace("!", "*")); // returns a new string
         // strings are immutable in Java
 
-        int[] numbers = {2, 3, 4, 5, 1, 5 };
-        System.out.println(Arrays.toString(numbers));
+        int[][] numbers = new int[2][3]; // 2 x 3 2d array
+        numbers[0][0] = 1;
+        System.out.println(Arrays.deepToString(numbers));
         // arrays have fixed length
 
 
