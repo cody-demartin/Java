@@ -1,6 +1,7 @@
 package com.company;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -15,6 +16,9 @@ public class Main {
         System.out.println(message.replace("!", "*")); // returns a new string
         // strings are immutable in Java
 
+        int[] numbers = {2, 3, 4, 5, 1, 5 };
+        System.out.println(Arrays.toString(numbers));
+        // arrays have fixed length
 
 
         Point point1 = new Point(1, 1);
