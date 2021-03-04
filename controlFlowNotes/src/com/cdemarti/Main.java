@@ -1,5 +1,8 @@
 package com.cdemarti;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +20,17 @@ public class Main {
         }
         else {
             System.out.println("Brrr");
+        }
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("hi");
+        }
+
+        String input = "";
+        Scanner scanner = new Scanner(System.in);
+        while (!input.equals("quit")) {
+            System.out.print("Input: ");
+            input = scanner.next().toLowerCase();
         }
 
         String role = "admin";
