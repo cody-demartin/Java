@@ -19,6 +19,14 @@ public class Main {
             System.out.println("Brrr");
         }
 
+        String role = "admin";
+        switch (role) {
+            case "admin":
+                System.out.println("admin");
+                break;
+            default:
+                System.out.println("not admin");
+        }
 
         boolean isWarm = temp > 20 && temp < 30;
         System.out.println(isWarm);
