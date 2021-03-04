@@ -21,6 +21,9 @@ public class Main {
         System.out.println(Arrays.deepToString(numbers));
         // arrays have fixed length
 
+        // constants
+        final float PI = 3.14F;
+        
 
         Point point1 = new Point(1, 1);
         Point point2 = point1;
