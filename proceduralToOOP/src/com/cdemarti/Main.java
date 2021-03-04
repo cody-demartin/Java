@@ -8,5 +8,8 @@ public class Main {
         employee.setHourlyRate(20);
         int wage = employee.calculateWage(20);
         System.out.println(wage);
+
+        var browser = new Browser();
+        browser.navigate("Hello");
     }
 }
